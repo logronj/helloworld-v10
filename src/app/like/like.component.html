@@ -1,0 +1,4 @@
+<div class="container">
+    <span class="glyphicon glyphicon-heart" [class.pink] ="isLiked" [class.gray] = "!isLiked" (click) ="onClickLike()"></span>
+    <ng-content select=".like"></ng-content>
+</div>
